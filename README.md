@@ -16,6 +16,7 @@ While the board works to a degree, the SRAM is not stable at the speeds required
 
 The core runs fine if forced down to 7mhz.  It runs ok at 14mhz apart from DMA operations which cause corrupt data.  28mhz won't boot.
 
+![alt text](https://github.com/dave18/SpecNext_MiSTER_Board/blob/main/IMG_20210321_114441.jpg)
 
 ![alt text](https://github.com/dave18/SpecNext_MiSTER_Board/blob/main/IMG_20210320_195406.jpg)
 
