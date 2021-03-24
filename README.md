@@ -4,7 +4,7 @@
 This is my attempt to add components to MiSTER to allow better compatibility with the Spectrum Next core.
 
 It adds
-* SRAM - up to 2 MB as per the next (using as7c34096a-10)
+* SRAM - up to 2 MB as per the next using IS61WV20488BLL-10TI as of V2.0 (as7c34096a-10 for V1.0)
 * VGA out (using same resistor values from Next schematic)
 * Mic/Ear port
 * Audio out
