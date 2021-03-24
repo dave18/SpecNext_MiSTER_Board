@@ -5576,7 +5576,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <wire x1="-10.16" y1="243.84" x2="-20.32" y2="243.84" width="0.762" layer="92"/>
 </segment>
 </bus>
-<bus name="JOY1_2:+33_3,JOY1_P1,JOY1_P2,JOY1_P3,JOY1_P4">
+<bus name="JOY1_2:+3.3V,JOY1_P1,JOY1_P2,JOY1_P3,JOY1_P4">
 <segment>
 <wire x1="5.08" y1="360.68" x2="5.08" y2="342.9" width="0.762" layer="92"/>
 <wire x1="5.08" y1="342.9" x2="12.7" y2="342.9" width="0.762" layer="92"/>
@@ -5600,7 +5600,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <wire x1="-48.26" y1="314.96" x2="-48.26" y2="327.66" width="0.762" layer="92"/>
 </segment>
 </bus>
-<bus name="JOY2_2:+33_3,JOY2_P1,JOY2_P2,JOY2_P3,JOY2_P4">
+<bus name="JOY2_2:+3.3V,JOY2_P1,JOY2_P2,JOY2_P3,JOY2_P4">
 <segment>
 <wire x1="5.08" y1="330.2" x2="5.08" y2="312.42" width="0.762" layer="92"/>
 <wire x1="5.08" y1="312.42" x2="12.7" y2="312.42" width="0.762" layer="92"/>
@@ -6599,8 +6599,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <segment>
 <pinref part="SUPPLY2" gate="G$1" pin="+3.3V"/>
 <wire x1="0" y1="35.56" x2="7.62" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="0" y1="35.56" x2="0" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="0" y1="48.26" x2="0" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="0" y1="35.56" x2="0" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="0" y1="83.82" x2="2.54" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="88.9" x2="-68.58" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="106.68" x2="-5.08" y2="106.68" width="0.1524" layer="91"/>
@@ -6616,9 +6615,22 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <wire x1="-30.48" y1="180.34" x2="-30.48" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="193.04" x2="-17.78" y2="193.04" width="0.1524" layer="91"/>
 <junction x="-17.78" y="193.04"/>
-<pinref part="JP1" gate="A" pin="11"/>
-<wire x1="-33.02" y1="48.26" x2="0" y2="48.26" width="0.1524" layer="91"/>
-<junction x="0" y="48.26"/>
+<pinref part="JP1" gate="A" pin="29"/>
+<wire x1="-33.02" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="0" y1="25.4" x2="0" y2="35.56" width="0.1524" layer="91"/>
+<junction x="0" y="35.56"/>
+</segment>
+<segment>
+<wire x1="12.7" y1="358.14" x2="7.62" y2="355.6" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="355.6" x2="7.62" y2="355.6" width="0.1524" layer="91"/>
+<label x="-2.54" y="355.6" size="1.778" layer="95"/>
+<pinref part="X2" gate="G$1" pin="5"/>
+</segment>
+<segment>
+<wire x1="12.7" y1="327.66" x2="10.16" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="325.12" x2="10.16" y2="325.12" width="0.1524" layer="91"/>
+<label x="0" y="325.12" size="1.778" layer="95"/>
+<pinref part="X3" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="BT_RST" class="0">
@@ -7044,29 +7056,6 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <wire x1="-106.68" y1="185.42" x2="-106.68" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="10"/>
 <wire x1="-40.64" y1="50.8" x2="-106.68" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="+33_3" class="0">
-<segment>
-<wire x1="-83.82" y1="-50.8" x2="-81.28" y2="-53.34" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="-53.34" x2="-68.58" y2="-53.34" width="0.1524" layer="91"/>
-<label x="-78.74" y="-53.34" size="1.778" layer="95"/>
-<pinref part="JP2" gate="A" pin="11"/>
-<wire x1="-68.58" y1="-53.34" x2="-53.34" y2="-53.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="12.7" y1="358.14" x2="10.16" y2="355.6" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="355.6" x2="10.16" y2="355.6" width="0.1524" layer="91"/>
-<label x="0" y="355.6" size="1.778" layer="95"/>
-<pinref part="X2" gate="G$1" pin="5"/>
-<wire x1="-2.54" y1="355.6" x2="-10.16" y2="355.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="12.7" y1="327.66" x2="10.16" y2="325.12" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="325.12" x2="10.16" y2="325.12" width="0.1524" layer="91"/>
-<label x="0" y="325.12" size="1.778" layer="95"/>
-<pinref part="X3" gate="G$1" pin="5"/>
-<wire x1="-2.54" y1="325.12" x2="-10.16" y2="325.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
