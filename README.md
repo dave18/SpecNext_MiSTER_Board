@@ -4,18 +4,18 @@
 This is my attempt to add components to MiSTER to allow better compatibility with the Spectrum Next core.
 
 It adds
-SRAM - up to 2 MB as per the next (using as7c34096a-10)
-VGA out (using same resistor values from Next schematic)
-Mic/Ear port
-Audio out
-Two DB9 joystick ports
-NMI/Drive/Reset buttons
-J13 header to add physical SD Card support
+* SRAM - up to 2 MB as per the next (using as7c34096a-10)
+* VGA out (using same resistor values from Next schematic)
+* Mic/Ear port
+* Audio out
+* Two DB9 joystick ports
+* NMI/Drive/Reset buttons
+* J13 header to add physical SD Card support
 
 Board V2.0 (Eagle files V8)
-Changed design to use a single 2mb SRAM chip to reduce trace count
-Manually routed board to ensure SRAM traces are a short as possible and use fewest vias
-STATUS - Awaiting board fabrication
+* Changed design to use a single 2mb SRAM chip to reduce trace count
+* Manually routed board to ensure SRAM traces are a short as possible and use fewest vias
+* STATUS - Awaiting board fabrication
 
 Changelog
 
