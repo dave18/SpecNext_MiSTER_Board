@@ -12,6 +12,15 @@ Two DB9 joystick ports
 NMI/Drive/Reset buttons
 J13 header to add physical SD Card support
 
+Board V2.0 (Eagle files V8)
+Changed design to use a single 2mb SRAM chip to reduce trace count
+Manually routed board to ensure SRAM traces are a short as possible and use fewest vias
+STATUS - Awaiting board fabrication
+
+Changelog
+
+Board V1.0 (Eagle files V3)
+
 While the board works to a degree, the SRAM is not stable at the speeds required (assumption is that trying to cram so much onto a small board has compromised track length/vias and/or created noise/capacitance issues).
 
 The core runs fine if forced down to 7mhz.  It mostly runs ok at 14mhz apart from DMA operations which cause corrupt data.  28mhz won't boot.
