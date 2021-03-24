@@ -6242,7 +6242,6 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <net name="VGA_RED" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="284.48" x2="215.9" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="287.02" x2="215.9" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="294.64" x2="215.9" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="302.26" x2="170.18" y2="302.26" width="0.1524" layer="91"/>
@@ -6251,19 +6250,13 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <junction x="215.9" y="294.64"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="287.02" x2="215.9" y2="287.02" width="0.1524" layer="91"/>
-<junction x="215.9" y="287.02"/>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="289.56" y1="294.64" x2="218.44" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="294.64" x2="218.44" y2="284.48" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="284.48" x2="215.9" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="294.64" x2="215.9" y2="294.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VGA_GREEN" class="0">
 <segment>
-<wire x1="213.36" y1="269.24" x2="198.12" y2="269.24" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="269.24" x2="198.12" y2="271.78" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="271.78" x2="190.5" y2="271.78" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="271.78" x2="187.96" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="271.78" x2="170.18" y2="271.78" width="0.1524" layer="91"/>
@@ -6274,18 +6267,15 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <wire x1="170.18" y1="264.16" x2="190.5" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="264.16" x2="190.5" y2="271.78" width="0.1524" layer="91"/>
 <junction x="190.5" y="271.78"/>
-<wire x1="213.36" y1="269.24" x2="213.36" y2="281.94" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="281.94" x2="236.22" y2="281.94" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="281.94" x2="236.22" y2="292.1" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="292.1" x2="289.56" y2="292.1" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="271.78" x2="236.22" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="271.78" x2="236.22" y2="292.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VGA_BLUE" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="266.7" x2="205.74" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="266.7" x2="205.74" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="256.54" x2="205.74" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="248.92" x2="185.42" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -6296,11 +6286,12 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <wire x1="170.18" y1="241.3" x2="185.42" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="241.3" x2="185.42" y2="248.92" width="0.1524" layer="91"/>
 <junction x="185.42" y="248.92"/>
-<wire x1="210.82" y1="266.7" x2="210.82" y2="279.4" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="279.4" x2="241.3" y2="279.4" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="279.4" x2="241.3" y2="289.56" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="241.3" y1="289.56" x2="289.56" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="289.56" x2="289.56" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="289.56" x2="264.16" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="269.24" x2="223.52" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="269.24" x2="223.52" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="256.54" x2="205.74" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B0" class="0">
@@ -6423,12 +6414,10 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <net name="HS" class="0">
 <segment>
 <wire x1="147.32" y1="233.68" x2="149.86" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="236.22" x2="251.46" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="236.22" x2="251.46" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="261.62" x2="248.92" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="236.22" x2="231.14" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="13"/>
-<wire x1="289.56" y1="264.16" x2="248.92" y2="264.16" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="264.16" x2="248.92" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="264.16" x2="231.14" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="264.16" x2="231.14" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-83.82" y1="-86.36" x2="-81.28" y2="-88.9" width="0.1524" layer="91"/>
@@ -6441,11 +6430,9 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <segment>
 <wire x1="147.32" y1="228.6" x2="149.86" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="231.14" x2="243.84" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="231.14" x2="243.84" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="231.14" x2="243.84" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="14"/>
-<wire x1="289.56" y1="261.62" x2="261.62" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="261.62" x2="261.62" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="248.92" x2="243.84" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="261.62" x2="243.84" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-10.16" y1="-86.36" x2="-12.7" y2="-88.9" width="0.1524" layer="91"/>
