@@ -33,3 +33,5 @@ The core runs fine if forced down to 7mhz.  It mostly runs ok at 14mhz apart fro
 
 ![alt text](https://github.com/dave18/SpecNext_MiSTER_Board/blob/main/M-N-SRAM-V3_Board_Attached.jpg)
 
+![alt text](https://github.com/dave18/SpecNext_MiSTER_Board/blob/main/M-N-SRAM-V3_Board_Fully_Populated.jpg)
+
